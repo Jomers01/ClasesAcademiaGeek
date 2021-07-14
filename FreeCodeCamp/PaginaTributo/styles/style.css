@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Concert+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+body {
+  background-color: white;
+}
+
+#main {
+  width: 96%;
+  margin: auto;
+  border-radius: 20px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  padding-right: 20px;
+  text-align: center;
+  color: black;
+}
+
+div {
+  position: relative;
+}
+
+.title {
+  font-family: "Concert one";
+  font-size: 54px;
+}
+
+.descripcion {
+  font-weight: bold;
+  font-size: 17px;
+  font-family: monospace;
+}
+
+#img-caption {
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 18px;
+}
+
+span {
+  font-weight: bold;
+}
+
+#img-div {
+  width: 96%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+#image {
+  display: block;
+  width: 99%;
+  height: auto;
+  border-radius: 20px;
+  position: relative;
+  max-width: 1280px;
+}
+
+ul {
+  font-size: 18px;
+  width: 94%;
+  text-align: justify;
+  font-family: monospace;
+  text-shadow: 0 10px 20px rgba(0, 0, 0, 0.8), 0 3px 6px rgba(0, 0, 0, 0.5);
+}
+
+.more-info {
+  margin-left: 10px;
+  font-family: sans-serif;
+}
+
+.pensamiento {
+  font-size: 18px;
+}
+
+.autor {
+  width: 96%;
+  text-align: end;
+  font-weight: bold;
+}
+#fondo {
+  position: absolute;
+  opacity: 0.6;
+  display: block;
+  height: 99%;
+  width: 99%;
+  max-width: 1280px;
+  margin: 0 auto;
+  border-radius: 15px;
+}
