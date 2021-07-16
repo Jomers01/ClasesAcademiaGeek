@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+
+body {
+  background-image: url(https://www.allianzcare.com/es/personal/a-quien-ayudamos/estudiantes/_jcr_content/root/parsys/stage_copy_copy/stageimage.img.82.3360.jpeg/1559127851772/students.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+
+.main {
+  display: block;
+  margin: 0 auto;
+}
+
+.cabezera {
+  text-align: center;
+}
+
+h1 {
+  font-family: "Roboto Slab";
+}
+
+p {
+  font-family: monospace;
+  font-size: 1.125rem;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+#description {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: normal;
+  font-style: italic;
+}
+
+.formulario {
+  position: static;
+  margin: auto;
+}
+
+#survey-form {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  background-color: lightblue;
+  padding: 30px;
+  border-radius: 15px;
+  opacity: 0.85;
+  width: 400px;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  font-size: 1.125rem;
+  margin-bottom: 0.5rem;
+  font-family: monospace;
+  font-weight: bold;
+}
+
+.form-group {
+  margin: 0 auto 1.25rem auto;
+  padding: 0.25rem;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  height: 2.5rem;
+}
+
+textarea {
+}
+
+.input-textarea {
+  min-height: 120px;
+  width: 100%;
+  padding: 0.625rem;
+  resize: vertical;
+}
+
+button {
+  border: none;
+}
+
+.submit-buttom {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  background: orange;
+  color: inherit;
+  border-radius: 2px;
+  cursor: pointer;
+}

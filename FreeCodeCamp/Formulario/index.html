@@ -1,18 +1,207 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registro - AcademiaGeek</title>
-    <link rel="stylesheet" href="./styles/style.css">
-</head>
-<body>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inscripción - AcademiaGeek</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
     <div class="main">
-        <header id="header">
-            <h1 id="title" class="text-center">Formulario de inscripcion AcademiaGeek</h1>
-            <p id="description" class="descrption text-center"></p>
-        </header>
+      <header class="cabezera">
+        <h1 id="title">Formulario de Inscripción AcademiaGeek</h1>
+        <p id="description">"Si no sigues lo que quieres, nunca lo tendrás."</p>
+      </header>
+      <main class="formulario">
+        <form id="survey-form">
+          <div class="form-group">
+            <label for="name" id="name-label">Nombres y Apellidos</label>
+            <input
+              type="text"
+              name="name"
+              class="form-control"
+              id="name"
+              placeholder="Ingrese sus Nombres"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="email" id="email-label">Correo Electronico</label>
+            <input
+              type="email"
+              name="email"
+              class="form-control"
+              id="email"
+              placeholder="Ingrese su Correo Electronico"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="tel" id="tel-label">Número de Teléfono</label>
+            <input
+              type="tel"
+              name="tel"
+              class="form-control"
+              id="tel"
+              placeholder="Ingrese su Número de Teléfono"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="number" id="number-label">Edad</label>
+            <input
+              type="number"
+              name="age"
+              class="form-control"
+              id="number"
+              min="16"
+              max="55"
+              placeholder="Ingrese su Edad"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <p>¿Tienes conocimiento básico en programación web?</p>
+            <select name="role" id="dropdown" class="form-control" required>
+              <option disabled selected value>Selecciona una opción</option>
+              <option value="si">Sí</option>
+              <option value="no">No</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <p>¿Cual de estos lenguajes conoces?</p>
+            <label>
+              <input
+                name="lenguajes"
+                value="Ninguno"
+                type="checkbox"
+                class="input-checkbox"
+              />
+              Ninguno de los anteriores
+            </label>
+            <label>
+              <input
+                name="lenguajes"
+                value="HTML5"
+                type="checkbox"
+                class="input-checkbox"
+              />
+              HTML5
+            </label>
+            <label>
+              <input
+                name="lenguajes"
+                value="CSS"
+                type="checkbox"
+                class="input-checkbox"
+              />
+              CSS
+            </label>
+            <label>
+              <input
+                name="lenguajes"
+                value="JS"
+                type="checkbox"
+                class="input-checkbox"
+              />
+              JavaScript
+            </label>
+          </div>
+          <div class="form-group">
+            <p>¿Dispones de Computadora e Internet?</p>
+            <label>
+              <input
+                type="radio"
+                value="Computadora"
+                name="recursos"
+                class="input-radio"
+              />
+              Solo tengo Computadora
+            </label>
+            <label>
+              <input
+                type="radio"
+                value="ambos"
+                name="recursos"
+                class="input-radio"
+              />
+              Tengo Computadora e Internet
+            </label>
+            <label>
+              <input
+                type="radio"
+                value="internet"
+                name="recursos"
+                class="input-radio"
+              />
+              Solo tengo Internet
+            </label>
+            <label>
+              <input
+                type="radio"
+                value="no-tengo"
+                name="recursos"
+                class="input-radio"
+              />
+              No tengo ninguna
+            </label>
+          </div>
+          <div class="form-group">
+            <p>¿Realizas alguna actividad diaria?</p>
+            <label>
+              <input
+                type="radio"
+                name="ocupacion"
+                class="input-radio"
+                value="trabaja"
+              />
+              Solo Trabajo
+            </label>
+            <label>
+              <input
+                type="radio"
+                name="ocupacion"
+                class="input-radio"
+                value="estudio"
+              />
+              Solo Estudio
+            </label>
+            <label>
+              <input
+                type="radio"
+                name="ocupacion"
+                class="input-radio"
+                value="ambos"
+              />
+              Trabajo y Estudio
+            </label>
+            <label>
+              <input
+                type="radio"
+                name="ocupacion"
+                class="input-radio"
+                value="nada"
+              />
+              Ninguna de las anteriores
+            </label>
+          </div>
+          <div class="form-group">
+            <p>¿Tienes algún comentario o sugerencia?</p>
+            <textarea
+              id="comments"
+              class="input-textarea"
+              name="comment"
+              placeholder="¡Ingrese su comentario o sugerencia aquí!"
+            ></textarea>
+          </div>
+          <div class="form-group">
+            <button type="submit" id="submit" class="submit-buttom">
+              Inscribirse
+            </button>
+          </div>
+        </form>
+      </main>
     </div>
-</body>
+  </body>
 </html>
