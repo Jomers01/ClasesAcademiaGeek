@@ -1,8 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+
 body {
+    font-family: 'Otomanopee One', sans-serif;
+    background-color: lightgray;
+}
+
+main {
+    width: 100%;
+    padding-top: 50px;
     margin: 0 auto;
 }
 
 .container {
+    text-align: center;
+    background-color: tomato;
+    border-radius: 10px;
+    width: 40%;
+    height: 250px;
     margin: 0 auto;
-    align-items: center;
+    padding: 30px;
 }
+
+.form {
+    margin: 0 auto;
+
+}
+
+    .form label {
+        font-size: 25px;
+    }
+
+    #frase {
+        font-size: 18px;
+        width: 60%;
+        height: 29px;
+        text-align: center;
+    }
+
+    #boton {
+        font-family: 'Otomanopee One';
+        font-size: 20px;
+        height: 40px;
+        width: 80%;
+    }
+
+    .result {
+        font-family: 'Ubuntu';
+        font-size: 20px;
+    }
+
+
+
+
+
+@media (max-width: 480px) {
+    body{
+        background-color: lightgray;
+    }
+
+    main {
+        width: 100%;
+        padding-top: 80px;
+    }
+
+    .container {
+        text-align: center;
+        background-color: tomato;
+        border-radius: 10px;
+        width: 80%;
+        height: 250px;
+        margin: 0 auto;
+        padding: 50px 10px 100px 10px;
+    }
+
+    .form {
+        font-size: 25px;
+    }
+
+    #frase {
+        font-size: 15px;
+        width: 79%;
+        height: 35px;
+        text-align: center;
+    }
+
+    #boton {
+        font-family: 'Otomanopee One';
+        font-size: 20px;
+        height: 40px;
+        width: 70%;
+    }
+
+    .result {
+        font-size: 20px;
+        font-family: 'Ubuntu';
+    }
+}
+
+
+/*@media (max-width: 1024px) {
+    body {
+        background-color:lightgrey;
+    }
+
+    .main {
+        width: 100%;
+        padding-top: 50px;
+    }
+
+    .container {
+        text-align: center;
+        background-color: tomato;
+        border-radius: 15px;
+        width: 80%;
+        margin: 0 auto;
+        padding: 100px 10px;
+    }
+
+    .form {
+        font-size: 50px;
+    }
+
+    #boton {
+        font-family: 'Otomanopee One';
+        font-size: 30px;
+        height: 80px;
+        width: 80%;
+    }
+
+    .result {
+        font-family: 'Ubuntu';
+}*/
