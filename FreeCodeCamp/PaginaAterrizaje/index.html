@@ -1,13 +1,109 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style/styles.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimumscale=1.0">
+  <link rel="stylesheet" href="./style/styles.css">
+  <title>Online Shop</title>
 </head>
+
 <body>
-    
+  <div class="container">
+    <header id="header">
+      <div class="logo">
+        <img id="header-img" src="./images/gorraLogo.png" alt="el dibujo de un celular con una bolsita">
+      </div>
+
+      <nav id="nav-bar">
+        <ul>
+          <li class="li1"><a class="nav-link" href="#servicio">¿En que destacamos?</a></li>
+          <li class="li2"><a class="nav-link" href="#guia">¿Quieres hacerlo por ti mismo?</a></li>
+          <li class="li3"><a class="nav-link" href="#precios"> Gama de precios</a></li>
+        </ul>
+      </nav>
+
+    </header>
+    <main>
+      <section id="contacto">
+        <h2>¿Eres una tienda fisica y necesitas un distribuidor de confianza?</h2>
+        <form id="form" action=" (https: // www. Reecodecamp.com/email-submit ).">
+          <input name="email" id="email" type="email" placeholder="Ingrese su Correo" required /></br>
+          <button id="submit" type="submit">Contactame</button>
+        </form>
+      </section>
+
+      <section id="servicio">
+        <div class="desc desc1">
+          <h2>Los mejores precios</h2>
+          <p>
+            Corremos como chitas, vigilamos como aguilas y nos sumergimos en la web como tiburones en busca de los
+            mejores
+            precios para ti.
+          </p>
+        </div>
+
+
+        <div class="desc desc2">
+          <h2>Maxima calidad</h2>
+          <p>
+            Testeamos y probamos al maximo los dispositivos para traerte lo mejor de lo mejor.
+          </p>
+        </div>
+
+        <div class="desc desc3">
+          <h2>Envios rapidos y seguros</h2>
+          <p>
+            Si tu pedido no llega en tres dias. Te devolvemos tu dinero.
+          </p>
+        </div>
+      </section>
+      <section id="guia">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/2HqJsLlAmz0" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+      </section>
+      <section id="precios">
+        <div class="productos" id="baratos">
+          <div class="level">Nacionales</div>
+          <h2>Desde $15.000</h2>
+          <ol>
+            <li>NewCap</li>
+            <li> GorrasMede</li>
+            <li> GorritosT</li>
+            <li>GorrasP</li>
+          </ol>
+        </div>
+        <div class="productos" id="nobaratos">
+          <div class="level">Originales</div>
+          <h2> Desde $70.000</h2>
+          <ol>
+            <li>Nike</li>
+            <li> Adidas </li>
+            <li> Puma </li>
+            <li> FLorentino </li>
+          </ol>
+        </div>
+        <div class="productos" id="caros">
+          <div class="level">Inportadas</div>
+          <h2>Desde $150.000</h2>
+          <ol>
+            <li>Luis vuitton</li>
+            <li>Chanel </li>
+            <li>Hermes</li>
+            <li>Rolex</li>
+          </ol>
+        </div>
+      </section>
+    </main>
+  </div>
+  <footer>
+    <span>Copyright 2021 | Jose Garcia</span>
+  </footer>
+  </div>
 </body>
+
 </html>
