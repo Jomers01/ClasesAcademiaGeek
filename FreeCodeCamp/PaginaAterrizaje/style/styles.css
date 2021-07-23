@@ -106,7 +106,7 @@ main {
     border-radius: 10px;
 }
 
-#contacto button {
+#submit {
     background-color: yellow;
     width: auto;
     height: 40px;
@@ -115,7 +115,7 @@ main {
     
 }
 
-#contacto button:hover {
+#submit:hover {
     background-color: rgb(232, 111, 71); 
 }
 

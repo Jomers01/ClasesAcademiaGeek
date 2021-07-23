@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto+Slab:wght@800&display=swap');
+
+body {
+    text-align: justify;
+    margin: 0;
+    font-family: 'Roboto Mono';
+}
+
+.container-grid {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-template-rows: auto auto;
+    grid-template-areas: "header main"
+                         "header footer";
+    
+}
+
+.container-nav {
+    grid-area: header;
+    background-color: whitesmoke;
+    border-right: 1px black solid;
+    width: 100%;
+    height: auto;
+}
+
+.container-nav header {
+    font-family: 'Roboto Slab';
+    font-size: 25px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+#navbar {
+    position: fixed;
+    width: 24%;
+    height: 100%;
+}
+
+.lista{
+    width: auto;
+    list-style: none;
+}
+
+.lista li {
+    height: auto;
+    margin: 0;
+    border-bottom: 1px black solid;
+    width: 90%;
+}
+
+.lista li:hover {
+    border-bottom: 2px darkcyan solid;
+}
+
+.lista li a {
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+    line-height: 55px;
+    
+}
+
+#main-doc {
+    padding-top: 20px;
+    grid-area: main;
+    background-color: lightgray;
+}
+
+.main-section {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.main-section header {
+    font-size: 25px;
+    font-family: 'Roboto Slab';
+}
+
+.footer {
+    grid-area: footer;
+    background-color: darkcyan;
+}
