@@ -7,20 +7,9 @@ body {
 }
 
 .container-grid {
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto;
-    
-}
-
-.container-main {
-    
+    text-align: center;
 }
 
 .title {
     font-size: 30px;
-}
-
-.footer {
-    
 }

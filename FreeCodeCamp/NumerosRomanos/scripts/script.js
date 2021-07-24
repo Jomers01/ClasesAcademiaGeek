@@ -131,7 +131,5 @@ function convertir(){
 
 }
 
-console.log(valor);
-
 
 
