@@ -1,0 +1,19 @@
+body {
+	background: #000;
+}
+
+.contenedor {
+	text-align: center;
+}
+
+.card img {
+	width: 100%;
+}
+
+#bienvenida {
+	color: white;
+}
+
+#bienvenida h2 {
+	text-align: start;
+}
