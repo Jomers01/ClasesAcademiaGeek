@@ -33,6 +33,8 @@ body {
     position: fixed;
     width: 24%;
     height: 100%;
+    top: 0;
+    left: 0;;
 }
 
 .lista{

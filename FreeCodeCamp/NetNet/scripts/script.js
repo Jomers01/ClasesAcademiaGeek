@@ -63,6 +63,7 @@ const filtrar = () => {
 botonBuscar.addEventListener('click', filtrar)
 input.addEventListener('keyup', filtrar) */
 
+
 //Funcion para capurar los datos del formulario
 
 const botonSuscripcion = document.querySelector('#botonSuscripcion');
@@ -96,4 +97,5 @@ function obtenerLocal() {
 
 }
 
+//Funcion para capurar agregar lista de favoritos y ver mi lista de favoritos
 
