@@ -21,3 +21,12 @@ h1{
 .btn{
     padding: 10px;
 }
+
+input[type=range] {
+    outline: none;
+    padding: 0;
+    background-image: linear-gradient(to right, #0083DE, #01FA48, #FADA01, #FF1107);
+    border-radius: 5px;
+    cursor: pointer;
+    -webkit-appearance: none;
+  }
