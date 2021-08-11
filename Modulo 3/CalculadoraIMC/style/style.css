@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: burlywood;
+    padding-bottom: 10px;
+}
+
+.imc {
+    margin: 10px;
+}
+
+.btn{
+    padding: 10px;
+}
