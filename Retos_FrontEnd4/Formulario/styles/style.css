@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Faustina:wght@400;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.navegation{
+    background-color: rgb(12, 11, 11);
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 100;
+}
+
+.logo{
+    margin-right: 20px;
+    padding: 5px;
+}
+
+.lista{
+    display: inline;
+}
+
+.lista a{
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    font-family: 'Faustina';
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.lista a:hover{
+    color:tomato;
+}
+
+.bg-portada{
+    background-image: url('https://media.vandal.net/i/1200x630/12-2019/2019122011265139_1.jpg');
+    background-size: cover;
+    height: 190px;
+    transform: rotate(1.5deg);
+    width: 100%;
+    margin-top: -30px;
+}
+
+.busqueda{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.ubicacion{
+    font-family: 'Faustina', sans-serif;
+    font-weight: 400;
+    margin-left: 10px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.fas{
+    color: brown;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.input{
+    margin-right: 20px;
+    height: 30px;
+    padding-left: 25px;
+    border: 2px gray solid;
+    border-radius: 5px;
+}
+
+.formulario{
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 55%;
+}
+
+.title{
+    text-align: center;
+    font-family: 'Faustina', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.description{
+    text-align: center;
+    margin-top: 15x;
+    font-family: 'Faustina';
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.seccion{
+    margin-top: 40px;
+    font-family: 'Faustina', sans-serif;
+    font-weight: 400;
+    color: rgb(99, 99, 99);
+    margin-bottom: 5px;
+}
+
+.form{
+    margin-top: 30px;
+}
+
+.form form{
+    display: flex;
+    justify-content: center;
+}
+
+.selected{
+    display: flex;
+    flex-direction: column;
+}
+
+.title-label{
+    font-size: 12px;
+    font-family: 'Faustina', sans-serif;
+}
+
+.part-label{
+    height: 40px;
+    padding-left: 15px;
+}
+
+.btn{
+    margin: 0 auto;
+    width: 130px;
+    height: 40px;
+    background-color: rgb(233, 61, 61);
+    border: none;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: rgb(245, 48, 48);
+}
+
+.footer{
+    background-color: rgb(39, 39, 39);
+    margin-top: 130px;
+}
+
+.ancho{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.secciones{
+    padding: 40px;
+    display: flex;
+    
+}
+
+.section{
+   
+    margin-right: 80px;
+    font-family: 'Faustina', sans-serif;
+}
+
+.title-section{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    color: white;
+    font-size: 20px;
+}
+
+.opciones{
+    margin-bottom: 25px;
+}
+
+.opciones a{
+    text-decoration: none;
+    color: rgb(189, 189, 189);
+    font-size: 18px;
+}
+
+.opciones a:hover{
+    color: tomato;
+}
+
+.derechos-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-footer{
+    padding: 40px;
+}
+
+.text-derechos{
+    color: rgb(189, 189, 189);
+    font-size: 20px;
+}
