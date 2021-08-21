@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cuerpo{
+    position: relative;
+}
+
+.fondo{
+    background-color: white;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.vertical-line{
+    border-left: thick solid orange;
+}
+
+.fecha1{
+    background-color: rgb(230, 150, 3);
+    border-radius: 10px;
+    padding: 5px;
+    position: absolute;
+    margin-top: 70px;
+    right: 510px;
+    
+}
+
+.fecha2{
+    background-color: rgb(230, 150, 3);
+    border-radius: 10px;
+    padding: 5px;
+    position: absolute;
+    margin-top: 480px;
+    right: 510px;
+}
+
+.fecha3{
+    background-color: rgb(230, 150, 3);
+    border-radius: 10px;
+    padding: 5px;
+    position: absolute;
+    margin-top: 560px;
+    right: 510px;
+}
+
+.fecha4{
+    background-color: rgb(230, 150, 3);
+    border-radius: 10px;
+    padding: 5px;
+    position: absolute;
+    margin-top: 900px;
+    right: 510px;
+}
+
+.fecha5{
+    background-color: rgb(230, 150, 3);
+    border-radius: 10px;
+    padding: 5px;
+    position: absolute;
+    margin-top: 1020px;
+    right: 510px;
+    z-index: 100;
+}
+
+.fecha6{
+    background-color: rgb(230, 150, 3);
+    border-radius: 10px;
+    padding: 5px;
+    position: absolute;
+    margin-top: 1110px;
+    right: 510px;
+    z-index: 100;
+}
+
+.fecha7{
+    background-color: rgb(230, 150, 3);
+    border-radius: 10px;
+    padding: 5px;
+    position: absolute;
+    margin-top: 1280px;
+    right: 510px;
+}
+
+.fecha8{
+    background-color: rgb(230, 150, 3);
+    border-radius: 10px;
+    padding: 5px;
+    position: absolute;
+    margin-top: 1680px;
+    right: 510px;
+}
+
+.fecha9{
+    background-color: rgb(230, 150, 3);
+    border-radius: 10px;
+    padding: 5px;
+    position: absolute;
+    margin-top: 1965px;
+    right: 510px;
+}
+
+.fecha10{
+    background-color: rgb(230, 150, 3);
+    border-radius: 10px;
+    padding: 5px;
+    position: absolute;
+    margin-top: 2160px;
+    right: 510px;
+}
+
+.fecha11{
+    background-color: rgb(230, 150, 3);
+    border-radius: 10px;
+    padding: 5px;
+    position: absolute;
+    margin-top: 2410px;
+    right: 510px;
+}
+
+    .fondo-gris{
+     background-color: gray;
+     padding: 10px;
+     width: 100%;
+    }
+
+        .fondo-blanco{
+            background-color: white;
+            padding: 5px;
+            width: 100%;     
+        }
+
+            .contenido{
+                background-color: white;
+                border: brown 2px dashed;
+                text-align: center;
+                font-family: 'Times New Roman', Times, serif;
+                color: brown;
+                font-size: 35px;
+            }
+
+.cuerpo{
+    display: flex;
+}
+
+
+    .poesia{
+        color: rgb(16, 145, 138);
+        font-size: 20px;
+        margin-left: 10px;
+    }
+
+    .titulo{
+        font-weight: 800;
+        font-size: 18px;
+    }
+
+    .columma1{
+        width: 60%;
+    }
+
+        .foto{
+            background-color: lightblue;
+            padding: 30px;
+            margin: 10px 20px 10px 0;
+        }
+
+        .foto img{
+            width: 550px;
+        }
+
+        .primeros-libros{
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 15px;
+        }
+
+        .colum1{
+            padding: 10px;
+            width: 50%;
+            background-color: burlywood;
+        }
+
+            .romancero{
+                width: 250px;
+                transform: rotate(10deg);
+            }
+
+            .nuevayork{
+                margin-top: 30px;
+                margin-right: 60px;
+                width: 250px;
+                transform: rotate(-10deg);
+            }
+
+            .libros{
+                text-align: initial;
+            }
+
+        .colum2{
+            padding: 10px;
+            margin-right: 20px;
+            width: 50%;
+            background-color: burlywood;
+        }
+
+            .obras{
+                text-align: end;
+            }
+
+            .colum2 p{
+                text-align: end;
+            }
+
+    .columma2{
+        width: 40%;
+    }
+
+        .biografia{
+            padding: 20px;
+            padding-right: 40px;
+            background-color: lightblue;
+            margin: 10px 0 10px 20px;
+        }
+
+            /* .title-biografia{
+                
+            } */
+
+            .parrafo{
+                margin-top: 20px;
+                margin-bottom: 20px;
+                text-align: initial;
+            }
+
+            .casa{
+                width: 250px;
+                margin-top: 20px;
+                margin-bottom: 20px;
+                
+            }
+
+            .familia{
+                margin-top: 55px;
+                width: 250px;
+                position: absolute;
+                transform: rotate(17deg);
+            }
+
+            .imagen{
+                width: 300px;
+            }
+
+            .amigo{
+                width: 300px;
+                transform: rotate(-7deg);
+            }
+
+            .regreso{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+                .teatro{
+                    width: 200px;
+                    transform: rotate(7deg);
+                }
+
+            .muerte{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+                .muerteFoto{
+                    width: 250px;
+                }
