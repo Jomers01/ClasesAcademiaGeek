@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav-bar{
+    background-color: rgb(187, 125, 245);
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+}
+
+.nav ul li{
+    display: inline;
+    margin-left: 50px;
+    margin-right: 30px;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.container-bacground{
+    margin-top: 60px;
+    width: 100vw;
+    height: 550px;
+    background-color: #e192e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.marco{
+    width: 900px;
+    height: 450px;
+    border: 3px solid #905bb5;
+    border-radius: 20px;
+}
+
+.title-promocional{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 40px;
+    color: purple;
+}
+
+.parrafo-intro{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 19px;
+}
+
+.empieza{
+    margin-top: 50px;
+    border: none;
+    padding: 20px 130px;
+    border-radius: 30px;
+    font-size: 18px;
+    background-color: tomato;
+    position: relative;
+    margin-left: 265px;
+    cursor: pointer;
+}
+
+.parrado-info{
+    text-align: center;
+    margin-top: 80px;
+}
+
+.title-planes{
+    text-align: center;
+    margin-top: 60px;
+}
+
+.planes{
+    display: flex;
+    justify-content: center;
+}
+
+.plan1{
+    padding: 15px;
+    margin: 10px;
+    margin-top: 40px;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.plan1:hover{
+    box-shadow: 1px 2px 5px 5px rgba(0, 0, 0, 0.2)
+}
+
+.plan2{
+    padding: 15px;
+    margin: 10px;
+    margin-top: 20px;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 1px 2px 5px 5px rgba(0, 0, 0, 0.2)
+}
+
+.title-plan1{
+    color: purple;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.parrafo{
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+
+.precio{
+    color: purple;
+    font-weight: 800;
+    font-size: 18px;
+    margin-bottom: 18px;
+}
+
+.btnA{
+    padding: 10px 60px;
+    border: none;
+    background-color: rgb(204, 63, 204);
+    border-radius: 20px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.caracteristicas{
+    text-align: start;
+    margin-bottom: 10px;
+}
+
