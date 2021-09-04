@@ -1,5 +1,5 @@
 import React from 'react';
-import { ContP, H2P, PP, ImgP, ImgP2, CountP2, ContUp, H3P, PPP, BtnUp, BtnUp2 } from "../styles/Styled";
+import { ContP, H2P, PP, ImgP, ImgP2, CountP2, ContUp, H3P, PPP, BtnUp, BtnUp2, BtnE } from "../styles/Styled";
 
 const Proyectos = () => {
     return (
@@ -20,12 +20,27 @@ const Proyectos = () => {
             </div>
             <CountP2>
                 <div>
+                <ContUp>
+                    <H3P>Príncipe fresco</H3P>
+                    <PPP>
+                    La serie está protagonizada por Will Smith como una versión ficticia de sí...
+                    </PPP>
+                    <BtnUp>Ver proyecto completo</BtnUp> <BtnUp2>Ver código</BtnUp2>
+                </ContUp>
                     <ImgP2 src="https://res.cloudinary.com/dpkaiokho/image/upload/v1630635600/Portafolio_Geek/bg_1_foxwna.png" alt="" />
                 </div>
                 <div>
+                <ContUp>
+                    <H3P>Amazonas</H3P>
+                    <PPP>
+                    Amazonas es la empresa en internet de venta al por menor más grande del...
+                    </PPP>
+                    <BtnUp>Ver proyecto completo</BtnUp> <BtnUp2>Ver código</BtnUp2>
+                </ContUp>
                     <ImgP2 src="https://res.cloudinary.com/dpkaiokho/image/upload/v1630635601/Portafolio_Geek/bg_vziird.png" alt="" />
                 </div>
             </CountP2>
+            <BtnE>Ver Más proyectos ➤ </BtnE>
         </div>
     )
 }

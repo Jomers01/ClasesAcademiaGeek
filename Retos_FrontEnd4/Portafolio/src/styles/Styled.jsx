@@ -94,11 +94,11 @@ export const ImgP = styled.img`
 
 export const CountP2 = styled.div`
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 `
 
 export const ImgP2 = styled.img`
-    width: 370px;
+    width: 400px;
     margin-right: 30px;
     margin-left: 35px;
 `
@@ -135,3 +135,77 @@ export const BtnUp2 = styled(BtnUp)`
     background-color: #0F0E17;
     border: 3px solid #FF8906;
 `
+
+export const BtnE = styled(BtnUp2)`
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    height: 50px;
+    font-family: 'Nunito';
+    font-size: 16px;
+    position: relative;
+    left: 42%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+`
+
+export const ContS1 = styled.div`
+    background: linear-gradient(#FEB692, #EA5455);
+    padding: 30px 40px 50px 40px;
+    font-family: 'Nunito';
+`
+
+export const ContS = styled(ContP)`
+    justify-content: space-around;
+    font-family: 'Lora';
+`
+
+export const BtnS = styled.button`
+    width: 208px;
+    height: 38px;
+    border: none;
+    color: #FF8906;
+    background-color: #0F0E17;
+    font-family: 'Nunito';
+    font-size: 14px;
+`
+
+export const ContC1 = styled(ContS1)`
+    display: flex;
+    justify-content: center;
+`
+
+export const ContC2 = styled.div`
+    background-color: #0F0E17;
+    color: white;
+    padding: 20px;
+`
+
+export const ContCH2 = styled.h2`
+    font-size: 28px;
+`
+
+export const ContCP = styled.p`
+    font-family: 'Lora';
+`
+
+export const ContC3 = styled.div`
+    display: flex;
+    flex-direction: column;
+`
+
+export const ContCI = styled.input`
+    height: 40px;
+    font-family: 'Lora';
+    font-size: 16px;
+`
+
+export const ContF = styled.footer`
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #0F0E17;
+    color: white;
+    font-family: 'Nunito';
+`
+
