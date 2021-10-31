@@ -5,21 +5,25 @@ import {
     Redirect
 } from 'react-router-dom';
 import Counter from '../components/Counter';
+import { UserContext } from '../components/UserContext';
 import AuthRouter from './AuthRouter';
 import { PrivateRouter } from './PrivateRouter';
 import { PublicRouter } from './PublicRouter';
 
 const AppRouter = () => {
-    const [isAuth, setIsAuth] = useState(true)
+    const [isAuth, setIsAuth] = useState(false)
+
     return (
-        <Router>
+        <UserContext.Provider value={{isAuth, setIsAuth}}>
+            <Router>
                     <Switch>
                         <PublicRouter path="/auth" component={AuthRouter} isAuthenticated={isAuth}  />
                         <PrivateRouter exact  path="/" component={Counter} isAuthenticated={isAuth} />
 
                         <Redirect to="/auth/login" />
                     </Switch>
-        </Router>
+            </Router>
+        </UserContext.Provider>
     )
 }
 

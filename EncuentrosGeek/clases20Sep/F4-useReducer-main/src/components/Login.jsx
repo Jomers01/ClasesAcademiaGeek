@@ -1,28 +1,29 @@
-import React, { useReducer } from 'react';
+import React, { memo, useContext, useReducer } from 'react';
 import { authReducer, initialState } from '../reducers/authReducer';
-import { login, logout } from '../actions/authAction'
+import { login } from '../actions/authAction';
+import { UserContext } from './UserContext';
 
-export const Login = () => {
-    const [state, dispatch] = useReducer(authReducer, initialState)
-    
+export const Login = memo(() => {
+    const [state, dispatch] = useReducer(authReducer, initialState);
+
+    const { setIsAuth } = useContext(UserContext)
+
+    const logIn = ()=> {
+        console.log(state);
+        dispatch(login('12345', 'Silvia Garcia'))
+        setIsAuth(true)
+    }
+
     return (
         <div>
             <h1>Login</h1>
             <hr />
-            <p>{state.name}</p>
-            <hr />
-            <button 
+            <button
                 className="btn btn-primary"
-                onClick={()=> dispatch(login('12345', 'Silvia Garcia'))} 
+                onClick={logIn}
             >
                 Login
             </button>
-            <button 
-                className="btn btn-danger"
-                onClick={()=> dispatch(logout())} 
-            >
-                Logout
-            </button>
         </div>
     )
-}
+})
